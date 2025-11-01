@@ -81,11 +81,6 @@
     }
   },
   "packageManager": "pnpm@9.4.0",
-  "pnpm": {
-    "overrides": {
-      "@modelcontextprotocol/sdk": "github:socotra/typescript-sdk#zod-v4"
-    }
-  },
   "publishConfig": {
     "access": "public",
     "provenance": true
