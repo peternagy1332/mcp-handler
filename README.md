@@ -14,7 +14,7 @@ pnpm add mcp-handler @modelcontextprotocol/sdk zod@^4
 bun add mcp-handler @modelcontextprotocol/sdk zod@^4
 ```
 
-> **Note**: This package currently uses Zod v4 with an experimental branch of `@modelcontextprotocol/sdk` that supports Zod v4. Until the SDK officially supports Zod v4, you may need to use package manager overrides to use the PR branch. See the [Zod v4 PR](https://github.com/socotra/typescript-sdk/tree/zod-v4) for more details.
+> **Note**: This package currently uses Zod v4 with an experimental branch that supports Zod v4. Until the SDK officially supports Zod v4, you may need to use package manager overrides to use the PR branch. See the [Zod v4 PR](https://github.com/socotra/typescript-sdk/tree/zod-v4) for more details.
 
 ## Next.js Usage
 
