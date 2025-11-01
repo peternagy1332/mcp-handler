@@ -1,7 +1,7 @@
 import { type Config, initializeMcpApiHandler } from "./mcp-api-handler";
 import { createServerResponseAdapter } from "./server-response-adapter";
-import type { ServerOptions as McpServerOptions } from "@modelcontextprotocol/sdk/server/index.js";
-import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
+import type { ServerOptions as McpServerOptions } from "@socotra/modelcontextprotocol-sdk/server/index.js";
+import type { McpServer } from "@socotra/modelcontextprotocol-sdk/server/mcp.js";
 
 /**
  * Creates a MCP handler that can be used to handle MCP requests.

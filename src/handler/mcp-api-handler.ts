@@ -1,5 +1,5 @@
-import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { SSEServerTransport } from "@modelcontextprotocol/sdk/server/sse.js";
+import { McpServer } from "@socotra/modelcontextprotocol-sdk/server/mcp.js";
+import { SSEServerTransport } from "@socotra/modelcontextprotocol-sdk/server/sse.js";
 import {
   type IncomingHttpHeaders,
   IncomingMessage,
@@ -8,7 +8,7 @@ import {
 import { createClient } from "redis";
 import { Socket } from "node:net";
 import { Readable } from "node:stream";
-import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
+import { StreamableHTTPServerTransport } from "@socotra/modelcontextprotocol-sdk/server/streamableHttp.js";
 import type { BodyType } from "./server-response-adapter";
 import assert from "node:assert";
 import type {
@@ -19,7 +19,7 @@ import type {
 } from "../lib/log-helper";
 import { createEvent } from "../lib/log-helper";
 import { EventEmittingResponse } from "../lib/event-emitter.js";
-import { AuthInfo } from "@modelcontextprotocol/sdk/server/auth/types";
+import { AuthInfo } from "@socotra/modelcontextprotocol-sdk/server/auth/types";
 import { getAuthContext } from "../auth/auth-context";
 import { ServerOptions } from ".";
 

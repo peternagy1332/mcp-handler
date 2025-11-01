@@ -1,4 +1,4 @@
-import { OAuthProtectedResourceMetadata } from "@modelcontextprotocol/sdk/shared/auth.js";
+import { OAuthProtectedResourceMetadata } from "@socotra/modelcontextprotocol-sdk/shared/auth.js";
 
 /**
  * CORS headers for OAuth Protected Resource Metadata endpoint.

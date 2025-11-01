@@ -69,11 +69,11 @@
     "zod": "^4.0.0"
   },
   "peerDependencies": {
-    "@modelcontextprotocol/sdk": "^1.17.2",
+    "@socotra/modelcontextprotocol-sdk": "^1.17.2",
     "next": ">=13.0.0"
   },
   "peerDependenciesMeta": {
-    "@modelcontextprotocol/sdk": {
+    "@socotra/modelcontextprotocol-sdk": {
       "optional": false
     },
     "next": {

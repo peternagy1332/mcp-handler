@@ -1,4 +1,4 @@
-import { AuthInfo } from "@modelcontextprotocol/sdk/server/auth/types";
+import { AuthInfo } from "@socotra/modelcontextprotocol-sdk/server/auth/types";
 import {
   createMcpHandler,
   withMcpAuth,

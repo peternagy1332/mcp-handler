@@ -5,13 +5,13 @@ A Vercel adapter for the Model Context Protocol (MCP), enabling real-time commun
 ## Installation
 
 ```bash
-npm install mcp-handler @modelcontextprotocol/sdk zod@^4
+npm install mcp-handler @socotra/modelcontextprotocol-sdk zod@^4
 # or
-yarn add mcp-handler @modelcontextprotocol/sdk zod@^4
+yarn add mcp-handler @socotra/modelcontextprotocol-sdk zod@^4
 # or
-pnpm add mcp-handler @modelcontextprotocol/sdk zod@^4
+pnpm add mcp-handler @socotra/modelcontextprotocol-sdk zod@^4
 # or
-bun add mcp-handler @modelcontextprotocol/sdk zod@^4
+bun add mcp-handler @socotra/modelcontextprotocol-sdk zod@^4
 ```
 
 > **Note**: This package currently uses Zod v4 with an experimental branch that supports Zod v4. Until the SDK officially supports Zod v4, you may need to use package manager overrides to use the PR branch. See the [Zod v4 PR](https://github.com/socotra/typescript-sdk/tree/zod-v4) for more details.
@@ -209,7 +209,7 @@ The configuration file is located at ~/.codeium/windsurf/mcp_config.json.
 
 ```typescript
 // app/components/YourComponent.tsx
-import { McpClient } from "@modelcontextprotocol/sdk/client";
+import { McpClient } from "@socotra/modelcontextprotocol-sdk/client";
 
 const client = new McpClient({
   // When using basePath, the SSE endpoint will be automatically derived
@@ -241,7 +241,7 @@ The MCP adapter supports the [MCP Authorization Specification](https://modelcont
 
 ```typescript
 // app/api/[transport]/route.ts
-import type { AuthInfo } from "@modelcontextprotocol/sdk/server/auth/types.js";
+import type { AuthInfo } from "@socotra/modelcontextprotocol-sdk/server/auth/types.js";
 import { createMcpHandler, withMcpAuth } from "mcp-handler";
 import { z } from "zod";
 

@@ -1,9 +1,9 @@
-import {AuthInfo} from "@modelcontextprotocol/sdk/server/auth/types.js";
+import {AuthInfo} from "@socotra/modelcontextprotocol-sdk/server/auth/types.js";
 import {
   InvalidTokenError,
   InsufficientScopeError,
   ServerError,
-} from "@modelcontextprotocol/sdk/server/auth/errors.js";
+} from "@socotra/modelcontextprotocol-sdk/server/auth/errors.js";
 import {withAuthContext} from "./auth-context";
 
 declare global {
